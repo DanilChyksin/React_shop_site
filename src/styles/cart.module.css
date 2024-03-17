@@ -1,0 +1,130 @@
+.wrapper {
+  padding: 32px;
+  width: 950px;
+  min-height: 423px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 16px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #b8b8b8;
+}
+.text span {
+  color: #fff;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: var(--bg);
+  border-radius: 8px;
+}
+.left_item {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.image {
+  width: 100px;
+  height: 47px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  max-width: 150px;
+}
+.title_item {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+.category_name {
+  font-size: 10px;
+  color: #b8b8b8;
+}
+.center_item {
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.btn_minus,
+.btn_plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.quantity_text {
+  color: #576067;
+  font-size: 14px;
+}
+.rigth_item {
+  display: flex;
+  align-items: center;
+  column-gap: 44px;
+}
+.total_price {
+  color: var(--purple-text);
+  font-size: 22px;
+  font-weight: 700;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+}
+.icon_close {
+  stroke: #576067;
+}
+.icon_close:hover {
+  stroke: #a2a2a2;
+}
+.space {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b8b8b8;
+  height: 100%;
+}

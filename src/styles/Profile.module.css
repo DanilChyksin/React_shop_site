@@ -1,0 +1,30 @@
+.profile {
+  padding: 24px;
+  width: 950px;
+  height: 423px;
+}
+.title {
+  font-size: 18px;
+  color: var(--white);
+  text-align: center;
+  padding-bottom: 40px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.input {
+  width: 50%;
+  background: var(--bg);
+  color: var(--white);
+  font-size: 13px;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+.input:hover {
+  outline: var(--purple-btn) solid 1px;
+}
+.submit {
+  width: 50%;
+}

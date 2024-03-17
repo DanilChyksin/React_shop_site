@@ -1,0 +1,47 @@
+.poster {
+  position: relative;
+  width: 950px;
+  height: 423px;
+  padding: 35px;
+}
+.text_bg {
+  padding-top: 30px;
+  font-size: 110px;
+  font-weight: 900;
+  color: #212123;
+}
+.content {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+}
+.sup_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #616e74;
+}
+.mein_text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.mein_text p {
+  color: var(--white);
+  font-size: 42px;
+  font-weight: 700;
+}
+.btn {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  width: 125px;
+  height: 38px;
+}
+.image {
+  position: absolute;
+  width: 462px;
+  height: 359px;
+  bottom: -20px;
+  right: -10px;
+}

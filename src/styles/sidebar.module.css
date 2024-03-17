@@ -1,0 +1,46 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  width: 304px;
+  height: 423px;
+}
+
+.title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.item {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 500;
+}
+.item:hover {
+  color: var(--white);
+}
+.active {
+  color: var(--purple-text);
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey);
+  font-size: 12px;
+  font-weight: 500;
+}
+.underline {
+  text-decoration: underline;
+}
+.text p {
+  cursor: pointer;
+}
+.text p:hover {
+  color: rgb(132, 132, 132);
+}
